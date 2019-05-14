@@ -5,11 +5,10 @@
 
 ## 涉及到包
 * 利用Beego创建登录页面和简单的api
-    "/login"  登录页面
-    "/Success" 登录成功页面
-    "/serviceValidate" 验证界面
-    
-    使用beego.InsertFilter 进行授权拦截
+* "/login"  登录页面
+*  "/Success" 登录成功页面
+*   "/serviceValidate" 验证界面
+*  使用beego.InsertFilter 进行授权拦截
   
 * jwt-go 创建签名
   
