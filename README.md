@@ -20,7 +20,7 @@
 
 ## 使用
 第三方直接点击跳转到
-http://127.0.0.1:8080/login?service=http://www.xxxx.com.cn/ceo_data
+http://127.0.0.1:8080/login?service=http://www.xxxx.com.cn/ceo_data 
 
 账户密码验证成功后，会跳转到service中，并带上token
 
