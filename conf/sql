@@ -1,0 +1,7 @@
+CREATE TABLE `user` (
+  `user_id` varchar(50) NOT NULL,
+  `login_name` varchar(100) DEFAULT NULL,
+  `user_password` varchar(100) DEFAULT NULL,
+  `user_status` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`user_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
