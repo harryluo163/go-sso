@@ -20,7 +20,6 @@ type ServiceValidateController struct {
 func (this *MainController) Get() {
 	token_head := this.Ctx.GetCookie("TOKEN")
 	this.Data["service"] = this.GetString("service")
-
 	if token_head == "" && unit.CheckToken(token_head) == "" {
 		this.TplName = "index.html"
 	} else {

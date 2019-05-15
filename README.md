@@ -2,7 +2,8 @@
 
 这个一个使用Go语言的sso使用账户密码授权例子
 数据库使用mysql 保存用户信息
-
+### 流程
+![](static/image/base-protocol.png)
 ## 涉及到包
 * 利用Beego创建登录页面和简单的api
 * "/login"  登录页面
